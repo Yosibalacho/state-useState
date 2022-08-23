@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       {pages.map((pageName) => (
-        <button onClick={() => setPageNum(pageName)}>{pageName}</button>
+        <button onClick={() => setPageNum(pageName)}>{pageName} </button>
       ))}
       <Router pageNum={pageNum}/>
     </div>
